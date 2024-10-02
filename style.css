@@ -6,7 +6,7 @@
 }
 
 .html{
-    margin-bottom: 10px;
+    margin-bottom: 0px;
 }
 
 @font-face{
@@ -15,9 +15,9 @@
 }
 
 .icon{
-    width: 70px;
+    width: 90px;
     background: linear-gradient(180deg, #227B94 0%, #16325B 100%);
-    padding: 25px;
+    padding: 23px;
     border-radius: 30px;
     margin: 53px;
     text-align: center;
@@ -47,6 +47,10 @@
     color: #1b6579;
     margin-bottom: 40px;
     text-align: center;
+}
+
+.da a:hover{
+    font-weight: bold;
 }
 
 .da a img{
@@ -221,7 +225,7 @@
     flex-direction: row;
     margin-top: 830px;
     margin-left: -800px;
-    margin-bottom: -900px;
+    margin-bottom: -150px;
 }
 
 .ect, .sa{
@@ -248,12 +252,12 @@
 }
 
 .bl1, .bl2{
-    width: 390px;
-    height: 180px;
+    width: 383px;
+    height: 175px;
     border-radius: 25px;
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 40px 0px;
-    padding-bottom: 20px;
+    padding-left: 5px;
 }
 
 .bl1:hover,.bl2:hover{
@@ -266,7 +270,7 @@
     width: 120px;
 }
 
-.ecb .bl1 div, .bl2 div{
+.v{
     position: relative;
     border: 3px solid #1b6579;
     border-radius: 140px;
@@ -276,26 +280,90 @@
     width: 120px;
     margin-left: 25px;
     margin-bottom: 25px;
-    top: 90px;
+    top: 40px;
 }
 
-.bl2 img{
+.bl1 img, .bl2 img{
     position: relative;
     left: 150px;
-    top: -60px;
-    margin-left: 100px;
+    top: -120px;
+    margin-left: 90px;
 }
 
-.bl1 img{
+.b1p, .b2p{
     position: relative;
-    left: 150px;
-    top: -60px;
-    margin-left: 100px;
-}
-
-.bl2, .bl1 p{
-    position: relative;
-    font-size: ;
+    bottom: -10px;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+
+.iml{
+    position: relative;
+    width: 350px;
+    height: 300px;
+    top: 500px;
+    left: 40px;
+
+}
+
+.imlp{
+    display: flex;
+    flex-direction: row;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.iml div img{
+    height: 90px;
+    border: 4px solid #16325B;
+    margin: 5px;
+    margin-top: 35px;
+    border-radius: 100%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 25px 0px;
+}
+
+.dn{
+    position: relative;
+    top: 20px;
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    font-weight: bold;
+    width: 350px;
+    height: 300px;
+    justify-content: space-between;
+}
+
+.dn p{
+    margin-right: 20px;
+}
+
+.dntx{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+    height: 350px;
+    padding: 30px;
+    top: -225px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 25px 0px;
+}
+
+.n1{
+    font-size: 19px;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+.n2{
+    font-size: 19px;
+    color: hsla(0, 0%, 0%, 0.5);
+}
+
+.dntx div{
+    margin-bottom: 19px;
 }
